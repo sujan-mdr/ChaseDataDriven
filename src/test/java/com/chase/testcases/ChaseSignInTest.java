@@ -1,9 +1,9 @@
 package com.chase.testcases;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriverException;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import org.testng.annotations.Test;
 
 import com.chase.base.TestBase;
@@ -22,6 +22,9 @@ public class ChaseSignInTest extends TestBase {
 			click("signinBtn_CSS");
 		}
 		else {
+			 webElement = driver.findElement(By.cssSelector("iframe[id^='logonbox']"));
+			if (webElement.isDisplayed()) {
+				driver.switchTo().frame("logonbox");
 			driver.findElement(By.xpath("//*[@id=\"signin-module\"]/div[2]/div/div/div/div[2]/a")).click();
 			type("username_CSS", username);
 			type("password_CSS", password);
@@ -35,3 +38,4 @@ public class ChaseSignInTest extends TestBase {
 		}
 
 }
+	}
