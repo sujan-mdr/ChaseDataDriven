@@ -1,0 +1,3 @@
+INFO    2020-12-29 17:33:49,319 [main] com.chase.base.TestBase  - OR properties Loaded!!!
+INFO    2020-12-29 17:33:49,320 [main] com.chase.base.TestBase  - Config files has been loaded!!!
+INFO    2020-12-29 17:33:53,610 [main] com.chase.base.TestBase  - Chrome has launched!!

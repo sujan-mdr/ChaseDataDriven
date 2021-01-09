@@ -1,0 +1,6 @@
+INFO    2021-01-06 22:42:50,563 [main] com.chase.base.TestBase  - Test Execution has been started!!
+INFO    2021-01-06 22:42:50,576 [main] com.chase.base.TestBase  - OR properties Loaded!!!
+INFO    2021-01-06 22:42:50,577 [main] com.chase.base.TestBase  - Config files has been loaded!!!
+INFO    2021-01-06 22:42:57,877 [main] com.chase.base.TestBase  - Chrome has launched!!
+INFO    2021-01-06 22:43:05,299 [main] com.chase.base.TestBase  - Navigated to Chase Bank!!!
+INFO    2021-01-06 22:43:27,354 [main] com.chase.base.TestBase  - Test Execution has completed
